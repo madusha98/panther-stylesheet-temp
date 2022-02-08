@@ -116,3 +116,19 @@ section#info__info_swvzt5hr3 p {
 .follow-section {
     display:none
 }
+
+.single_cat_button {
+    border-radius: 25px !important;
+    
+}
+
+.single_cat_button:hover {
+    background: #D48832;
+    color: white;
+}
+
+.listings__button--ghost {
+    border-radius: 25px !important;
+    background: #D48832;
+    color: white;
+}
