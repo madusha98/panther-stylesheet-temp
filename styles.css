@@ -112,3 +112,7 @@ section#info__info_swvzt5hr3 p {
     line-height: 26px;
     color: #1F2F46;
 }
+
+.follower-count {
+    display: none;
+}
