@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'GT America Lt';
+    src: url('./fonts/GTAmerica-Lt.woff2') format('woff2'),
+        url('./fonts/GTAmerica-Lt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Copyright Klim Type Foundry';
+    src: url('./fonts/DomaineDisplay-Regular.woff2') format('woff2'),
+        url('./fonts/DomaineDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1.info__title--single-column {
+    font-family: 'Copyright Klim Type Foundry';
+    font-weight: lighter;
+    font-size: 36px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+h2.info__column-title {
+    color: #1F2F46;
+    font-size: 26px;
+    font-family: 'Copyright Klim Type Foundry';
+    letter-spacing: 1px;
+}
+
+.info__column-paragraph--markdown p {
+    color: #1F2F46;
+    font-family: 'GT America Lt';
+    font-size: 16px;
+    padding: 0 60px;
+}
+
+/* section#info__three_column_info_without_icons_and_buttons:after {
+    content: "";
+    background-color: #F3F4F5;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    border-radius: 100% 100% 0 0;
+    z-index: -1;
+}
+section#info__three_column_info_without_icons_and_buttons {
+    position: relative;
+    padding-top: 690px;
+} */
+
+.info__three_column_info_without_icons_and_buttons__info__button--ghost {
+    border: 0;
+    padding: 0;
+    color: #C98C44;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 30px;
+    border-bottom: 1px solid #F3F4F5;
+    border-radius: 0;
+}
+
+.info__three_column_info_without_icons_and_buttons__info__button--ghost:hover {
+    background-color: initial;
+    color: #d48c34;
+    border-bottom: 1px solid #d48c34;
+    border-radius: 0;
+}
+
+h1.hero__title {
+    font-size: 42px;
+    font-family: 'Copyright Klim Type Foundry';
+    letter-spacing: 1px;
+    font-weight: 100;
+    line-height: 44px;
+    margin-bottom: 11px;
+}
+
+h3.hero__subtitle {
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+input.hero__search-input {
+    margin-bottom: 0 !important;
+    padding: 10px !important;
+}
+
+.hero__search-bar-padding {
+    width: 530px;
+}
+
+section#info__three_column_info_without_icons_and_buttons h1.info__title--multi-column {
+    display: none;
+}
+
+section#info__three_column_info_without_icons_and_buttons {
+    padding-top: 0;
+}
+
+section#info__info_swvzt5hr3 {
+    padding-bottom: 20px;
+}
+
+section#info__info_swvzt5hr3 p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F2F46;
+}
