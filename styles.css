@@ -20,8 +20,8 @@ h1, h2 {
     font-family: 'Copyright Klim Type Foundry' !important; 
 }
 
-div, p, span, h3, h4, h5, h6 {
-     font-family: 'GT America Lt';
+div, p, span, h3, h4, h5, h6, button, a {
+    font-family: 'GT America Lt' !important;
 }
 
 h1.info__title--single-column {
