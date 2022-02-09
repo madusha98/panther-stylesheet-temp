@@ -53,7 +53,7 @@ section#info__three_column_info_without_icons_and_buttons {
     padding-top: 690px;
 } */
 
-.info__three_column_info_without_icons_and_buttons__info__button--ghost {
+.info__three_column_info_without_icons_and_buttons__info__button--ghost, .info__button--ghost {
     border: 0;
     padding: 0;
     color: #C98C44;
@@ -64,7 +64,7 @@ section#info__three_column_info_without_icons_and_buttons {
     border-radius: 0;
 }
 
-.info__three_column_info_without_icons_and_buttons__info__button--ghost:hover {
+.info__three_column_info_without_icons_and_buttons__info__button--ghost:hover, .info__button--ghost:hover {
     background-color: initial;
     color: #d48c34;
     border-bottom: 1px solid #d48c34;
