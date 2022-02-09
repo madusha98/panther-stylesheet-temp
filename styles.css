@@ -16,6 +16,14 @@
     font-display: swap;
 }
 
+h1, h2 {
+    font-family: 'Copyright Klim Type Foundry' !important; 
+}
+
+div, p, span, h3, h4, h5, h6 {
+     font-family: 'GT America Lt';
+}
+
 h1.info__title--single-column {
     font-family: 'Copyright Klim Type Foundry';
     font-weight: lighter;
