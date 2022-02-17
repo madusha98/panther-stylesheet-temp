@@ -160,3 +160,7 @@ h1 {
 .AllPostLink {
     display: none
 }
+
+#ex_or_cu > .choose-one-from > .choose-expert {
+    display: none    
+}
