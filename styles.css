@@ -152,3 +152,7 @@ button.slick-arrow {
 h1 {
     font-size: 42px !important;
 }
+
+.profile-content-action-row > .listing-content-opt-row > .listing-content-opt:last-child {
+    display:none
+}
